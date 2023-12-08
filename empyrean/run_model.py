@@ -3,14 +3,14 @@ class Empyrean:
     self.running = False
 
   def begin(self):
-    output
+    self.output
 
     self.running = True
 
     with open('introduction.txt') as f:
       intro = f.read()
 
-    output(intro)
+    self.output(intro)
   
   def onoutput(self, output_func):
     self.output = output_func
