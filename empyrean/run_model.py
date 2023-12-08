@@ -16,5 +16,5 @@ class Empyrean:
     self.output = output_func
   
   def input(self, prompt):
-    assert running == True, 'Model Not Running'
+    assert self.running == True, 'Model Not Running'
     self.output(prompt)
