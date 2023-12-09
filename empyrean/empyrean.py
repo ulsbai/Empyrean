@@ -16,7 +16,7 @@ class Empyrean:
     self.output(intro, type='intro')
   
   def addOutputListener(self, output_func):
-    self.outputListeners = output_func
+    self.outputListeners.append(output_func)
   
   def input(self, prompt):
     assert self.running == True, 'Model Not Running'
