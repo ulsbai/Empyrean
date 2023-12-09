@@ -6,7 +6,7 @@ echo BUILDING EMPYREAN
 
 python setup.py sdist
 
-echo CREATING VIRTUAL ENVIORMENT
+echo CREATING VIRTUAL ENVIORNMENT
 
 python -m venv .venv
 
