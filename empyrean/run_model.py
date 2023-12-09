@@ -1,3 +1,5 @@
+import os
+
 class Empyrean:
   def __init__(self):
     self.running = False
@@ -7,7 +9,7 @@ class Empyrean:
 
     self.running = True
 
-    with open('introduction.txt') as f:
+    with open(os.path.join(os.path.dirname(__file__), 'introduction.txt')) as f:
       intro = f.read()
 
     self.output(intro)
