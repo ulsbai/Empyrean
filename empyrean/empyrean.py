@@ -4,7 +4,7 @@ class Empyrean:
   def __init__(self):
     self.running = False
 
-  def begin(self):
+  def start(self):
     self.output
 
     self.running = True
