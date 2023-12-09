@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-  name = "empyrean",
+  name = "Empyrean",
   version = "1.0",
   packages = ["empyrean"],
   requirements = [
