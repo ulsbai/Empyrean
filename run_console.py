@@ -4,8 +4,8 @@ from termcolor import colored
 machine = Empyrean()
 
 def output(text, type):
-  assert type in ['intro', 'echo']
-  color = 'red' if type == 'intro' else 'green' if type == 'echo'
+  color = {'intro': 'red', 'echo': 'green'}[type]
+  print(colored(text, color))
 
 machine.addOutputListener(output)
 machine.start()
