@@ -14,4 +14,4 @@ echo INSTALLING EMPYREAN INTO VITRUAL ENVIORNMENT
 
 .venv/bin/python -m pip install "dist/Empyrean-$VERSION.tar.gz"
 
-echo VIRTUAL ENVIORNMENT CREATED FOR EMPYREAN, USE \"source .venv/bin/activate\" TO ACTIVATE, deactivate TO DEACTIVATE
+echo VIRTUAL ENVIORNMENT CREATED FOR EMPYREAN, USE \"source .venv/bin/activate\" TO ACTIVATE, \"deactivate\" TO DEACTIVATE
