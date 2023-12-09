@@ -8,10 +8,11 @@ def output(text, type):
   print(colored(text, color))
 
 machine.addOutputListener(output)
-machine.start()
 
 print('Running Empyrean...')
 print('Output will be in', colored('red for intro,', 'red'), 'and', colored('green for echo', 'green'))
+
+machine.start()
 
 while True:
   prompt = input()
