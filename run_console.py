@@ -1,4 +1,4 @@
-from run_model import Empyrean
+from empyrean.empyrean import Empyrean
 
 print('Running Empyrean...')
 
