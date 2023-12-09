@@ -5,6 +5,6 @@ setup(
   version = "1.0",
   packages = ["empyrean"],
   requirements = [
-    "os
+    "os"
   ]
 )
