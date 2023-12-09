@@ -1,11 +1,11 @@
 from empyrean.empyrean import Empyrean
 
-print('Running Empyrean...')
-
 machine = Empyrean()
 
-machine.onoutput(print)
-machine.begin()
+machine.addOutputListener(output)
+machine.start()
+
+print('Running Empyrean...')
 
 while True:
   prompt = input()
